@@ -1,2 +1,14 @@
-# OR-Gate
-Code of OR gate and its truth table using Testbench
+# OR Gate using Verilog
+
+This project implements a basic OR gate using Verilog HDL and verifies it using Icarus Verilog and GTKWave.
+
+# Files
+- or_gate.v:OR gate design
+- tb_or_gate.v:Testbench
+- or.vcd:Waveform output (optional)
+
+# How to Run
+```bash
+iverilog -o and or_gate.v tb_or_gate.v
+vvp or
+gtkwave or.vcd
