@@ -9,6 +9,6 @@ This project implements a basic OR gate using Verilog HDL and verifies it using 
 
 # How to Run
 ```bash
-iverilog -o or or_gate.v.txt tb_or_gate.v.txt
+iverilog -o or or_gate.v tb_or_gate.v
 vvp or
 gtkwave or.vcd
